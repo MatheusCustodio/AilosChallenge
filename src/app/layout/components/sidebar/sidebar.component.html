@@ -1,0 +1,10 @@
+<div id="header" class="d-flex flex-column align-items-center">
+    <div class="py-3">
+        <img src="/assets/images/ailosIcon.png" height="60" width="60">
+    </div>
+    <div *ngFor="let item of menuItens" class="py-3">
+        <a [routerLink]="item.link">
+            <img [src]="item.image" height="30" width="30">
+        </a>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+input {
+    max-width: 400px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.icon {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.card-label {
+    font-size: 14px;
+    color: #787878;
+}
+
+.card-value {
+    font-size: 18px;
+    color: #040F14;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+.invalid-cpf {
+    font-size: 14px;
+    color: #C13018;
+}
